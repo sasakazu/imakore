@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6295D97D1476CE4F63BCBFE2 /* Pods_imakoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29554CE27FFB8EBBAE0A7367 /* Pods_imakoreTests.framework */; };
 		7384010326CD08CB0070F8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384010226CD08CB0070F8CF /* AppDelegate.swift */; };
 		7384010526CD08CB0070F8CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384010426CD08CB0070F8CF /* SceneDelegate.swift */; };
 		7384010726CD08CB0070F8CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384010626CD08CB0070F8CF /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		7384010F26CD08CD0070F8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7384010D26CD08CD0070F8CF /* LaunchScreen.storyboard */; };
 		7384011A26CD08CD0070F8CF /* imakoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384011926CD08CD0070F8CF /* imakoreTests.swift */; };
 		7384012526CD08CD0070F8CF /* imakoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384012426CD08CD0070F8CF /* imakoreUITests.swift */; };
+		B409C2CF906FBCF85C541689 /* Pods_imakore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C95A507F3275072D8D70776 /* Pods_imakore.framework */; };
+		C798326D3F8D60A8F96EEB27 /* Pods_imakore_imakoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1086F009784E416A98A872C6 /* Pods_imakore_imakoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1086F009784E416A98A872C6 /* Pods_imakore_imakoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imakore_imakoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A422523F79A92B52EACC1B /* Pods-imakoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakoreTests.debug.xcconfig"; path = "Target Support Files/Pods-imakoreTests/Pods-imakoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C95A507F3275072D8D70776 /* Pods_imakore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imakore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29554CE27FFB8EBBAE0A7367 /* Pods_imakoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imakoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CB5668037BCD327AAEC4CB /* Pods-imakoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakoreTests.release.xcconfig"; path = "Target Support Files/Pods-imakoreTests/Pods-imakoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F08A9D6CE0C06A0245A29A1 /* Pods-imakore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakore.release.xcconfig"; path = "Target Support Files/Pods-imakore/Pods-imakore.release.xcconfig"; sourceTree = "<group>"; };
+		50199BEDCE5A0513EE1636B5 /* Pods-imakore-imakoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakore-imakoreUITests.release.xcconfig"; path = "Target Support Files/Pods-imakore-imakoreUITests/Pods-imakore-imakoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		738400FF26CD08CB0070F8CF /* imakore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imakore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7384010226CD08CB0070F8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7384010426CD08CB0070F8CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		7384012026CD08CD0070F8CF /* imakoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imakoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7384012426CD08CD0070F8CF /* imakoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imakoreUITests.swift; sourceTree = "<group>"; };
 		7384012626CD08CD0070F8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B859A29FBC3A63EE008D44B /* Pods-imakore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakore.debug.xcconfig"; path = "Target Support Files/Pods-imakore/Pods-imakore.debug.xcconfig"; sourceTree = "<group>"; };
+		E60118C4D0BAF60360BCD9F8 /* Pods-imakore-imakoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imakore-imakoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-imakore-imakoreUITests/Pods-imakore-imakoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B409C2CF906FBCF85C541689 /* Pods_imakore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6295D97D1476CE4F63BCBFE2 /* Pods_imakoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C798326D3F8D60A8F96EEB27 /* Pods_imakore_imakoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370BD75A05FD33B40D66D8DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B859A29FBC3A63EE008D44B /* Pods-imakore.debug.xcconfig */,
+				3F08A9D6CE0C06A0245A29A1 /* Pods-imakore.release.xcconfig */,
+				E60118C4D0BAF60360BCD9F8 /* Pods-imakore-imakoreUITests.debug.xcconfig */,
+				50199BEDCE5A0513EE1636B5 /* Pods-imakore-imakoreUITests.release.xcconfig */,
+				16A422523F79A92B52EACC1B /* Pods-imakoreTests.debug.xcconfig */,
+				34CB5668037BCD327AAEC4CB /* Pods-imakoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5AC5434406A818C9286C9079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C95A507F3275072D8D70776 /* Pods_imakore.framework */,
+				1086F009784E416A98A872C6 /* Pods_imakore_imakoreUITests.framework */,
+				29554CE27FFB8EBBAE0A7367 /* Pods_imakoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		738400F626CD08CB0070F8CF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				7384011826CD08CD0070F8CF /* imakoreTests */,
 				7384012326CD08CD0070F8CF /* imakoreUITests */,
 				7384010026CD08CB0070F8CF /* Products */,
+				370BD75A05FD33B40D66D8DF /* Pods */,
+				5AC5434406A818C9286C9079 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7384012926CD08CD0070F8CF /* Build configuration list for PBXNativeTarget "imakore" */;
 			buildPhases = (
+				7E94EA87B6F41529FE31CB8C /* [CP] Check Pods Manifest.lock */,
 				738400FB26CD08CB0070F8CF /* Sources */,
 				738400FC26CD08CB0070F8CF /* Frameworks */,
 				738400FD26CD08CB0070F8CF /* Resources */,
+				8D709D760B7A61943A024971 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7384012C26CD08CD0070F8CF /* Build configuration list for PBXNativeTarget "imakoreTests" */;
 			buildPhases = (
+				9E6498F44A3276DCB0115822 /* [CP] Check Pods Manifest.lock */,
 				7384011126CD08CD0070F8CF /* Sources */,
 				7384011226CD08CD0070F8CF /* Frameworks */,
 				7384011326CD08CD0070F8CF /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7384012F26CD08CD0070F8CF /* Build configuration list for PBXNativeTarget "imakoreUITests" */;
 			buildPhases = (
+				B1F270738AD6E444F64492B7 /* [CP] Check Pods Manifest.lock */,
 				7384011C26CD08CD0070F8CF /* Sources */,
 				7384011D26CD08CD0070F8CF /* Frameworks */,
 				7384011E26CD08CD0070F8CF /* Resources */,
+				DE6488C7A6FA321B32242312 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E94EA87B6F41529FE31CB8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imakore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D709D760B7A61943A024971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imakore/Pods-imakore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imakore/Pods-imakore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imakore/Pods-imakore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6498F44A3276DCB0115822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imakoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F270738AD6E444F64492B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imakore-imakoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6488C7A6FA321B32242312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imakore-imakoreUITests/Pods-imakore-imakoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-imakore-imakoreUITests/Pods-imakore-imakoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imakore-imakoreUITests/Pods-imakore-imakoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		738400FB26CD08CB0070F8CF /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		7384012A26CD08CD0070F8CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B859A29FBC3A63EE008D44B /* Pods-imakore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		7384012B26CD08CD0070F8CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F08A9D6CE0C06A0245A29A1 /* Pods-imakore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		7384012D26CD08CD0070F8CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A422523F79A92B52EACC1B /* Pods-imakoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		7384012E26CD08CD0070F8CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CB5668037BCD327AAEC4CB /* Pods-imakoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		7384013026CD08CD0070F8CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60118C4D0BAF60360BCD9F8 /* Pods-imakore-imakoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		7384013126CD08CD0070F8CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50199BEDCE5A0513EE1636B5 /* Pods-imakore-imakoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
